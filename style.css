@@ -1,0 +1,17 @@
+body{
+  background-image: url('bg.jpg');
+  background-position: center;
+  background-size: cover;  
+  color:white;
+  font-family:cursive ;
+}
+#ins{
+  margin-top: 100px;
+}
+#login_btn{
+ background-color: white;
+ color:black;
+}
+div{
+  width:700px;
+}
