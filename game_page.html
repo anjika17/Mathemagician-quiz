@@ -1,0 +1,35 @@
+<html>
+ <head>
+ <title> Game </title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+ <link rel="stylesheet" href="game_page.css">  
+ </head>  
+ <body>
+    <h4 id="login_input_player1"></h4><span id="player_1score"></span>
+    <br>
+    <br>
+    <h4 id="login_input_player2"></h4><span id="player_2score"></span>
+    <div class="container">
+        <center>
+            <h2 style="color: white;">Mathemagician quiz !</h2>
+            <h3 id="value_1"></h3>
+            <h3 id="value_2"></h3>
+            <div id="output" class="col-lg-6"></div>
+            <br>
+            <h2>Question turn =<b id="q_turn"></b></h2>
+            <h2>Answer turn =<b id="a_turn"></b></h2>
+            <br>
+            <label>Type the value 1</label>
+            <input type="text" class="form-control" id="value_1" placeholder="Type the value">
+            <br>
+            <label>Type the value 2</label>
+            <input type="text" class="form-control" id="value_2" placeholder="Type the value">
+            <br>
+            <button type="button" class="btn btn-info" id="sendButton" onclick="send()"> Send </button>
+    
+        </center>    
+ </body> 
+</html>
